@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Message Sent</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .thank-you-section {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #111827, #1f2937);
+            color: white;
+            padding: 2rem;
+        }
+        
+        .thank-you-content {
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 3rem;
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .thank-you-icon {
+            font-size: 4rem;
+            color: #fbbf24;
+            margin-bottom: 1.5rem;
+        }
+        
+        .thank-you-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        
+        .thank-you-message {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .back-home {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: #fbbf24;
+            color: #111827;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .back-home:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(251, 191, 36, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <section class="thank-you-section">
+        <div class="thank-you-content">
+            <i class="fas fa-check-circle thank-you-icon"></i>
+            <h1 class="thank-you-title">Thank You!</h1>
+            <p class="thank-you-message">Your message has been sent successfully. I'll get back to you as soon as possible.</p>
+            <a href="index.html" class="back-home">Back to Homepage</a>
+        </div>
+    </section>
+</body>
+</html> 
