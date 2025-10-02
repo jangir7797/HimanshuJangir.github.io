@@ -61,7 +61,7 @@ Portfolio project/
 
 ## 🤝 Connect With Me
 
-- Email: himanshujangir0707@gmail.com
+- Email: himanshujangir97@gmail.com
 - LinkedIn: [Himanshu Jangir](https://www.linkedin.com/in/himanshu-jangir)
 - GitHub: [himanshujangir](https://github.com/himanshujangir)
 - Medium: [@himanshujangir7797](https://medium.com/@himanshujangir7797)
